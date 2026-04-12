@@ -14,18 +14,7 @@ Chronic organophosphate (OP) pesticide exposure is associated with neurological 
 
 Derived from primary OP exposure proteomics (chronic vs. control). All proteins are fixed prior to external comparison.
 
-| Gene | OP Chronic log₂FC | Direction |
-|------|-------------------|-----------|
-| ACTG1 | −5.98 | Down |
-| DNAH9 | +5.84 | Up |
-| GPX3 | −2.83 | Down |
-| VWF | +4.28 | Up |
-| C4B | −4.15 | Down |
-| CD44 | +1.58 | Up |
-| CFHR2 | +1.47 | Up |
-| ITIH3 | −1.21 | Down |
-| LRG1 | −1.72 | Down |
-| MYH7B | −5.32 | Down |
+ACTG1, DNAH9, GPX3, VWF, C4B, CD44, CFHR2, ITIH3, LRG1, MYH7B
 
 ---
 
