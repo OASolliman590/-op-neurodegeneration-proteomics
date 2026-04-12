@@ -1,0 +1,36 @@
+accession,disease,exposure_type,species,biospecimen,modality,repository,case_label,control_label,access_type,priority,notes
+GSE30335,OP_exposure,chronic,human,whole_blood,transcriptomics,GEO,farmworker,manual_worker,open,primary,Human farmworker pesticide exposure whole-blood transcriptomics (best available OP-related blood cohort) | label fix: farmworker vs manual_worker
+GSE286345,OP_exposure,chronic,human,PBMC,transcriptomics,GEO,GWI,control,open,primary,Human Gulf War Illness PBMC RNA-seq cohort (exercise challenge design; GWI vs controls)
+GSE168409,OP_exposure,chronic,human,PBMC,transcriptomics,GEO,GWI,control,open,primary,Human Gulf War Illness PBMC RNA-seq cohort; complementary to GSE286345
+GSE305935,OP_exposure,chronic,human,blood_PBMC,transcriptomics,GEO,GWI,control,open,secondary,Human Gulf War Illness targeted immune-expression panel (blood/PBMC); targeted panel so treated as secondary OP support
+GSE5023,OP_exposure,acute,human,brain_primary_astrocytes,transcriptomics,GEO,chlorpyrifos_exposed,unexposed,controlled,secondary,Controlled chlorpyrifos exposure in primary human fetal astrocytes; currently disabled due unstable GEO FTP retrieval in this runtime
+GSE241995,OP_exposure,acute,human,ovarian_granulosa_cells,transcriptomics,GEO,organophosphate_exposed,control,open,secondary,Human OPE exposure RNA-seq cohort with robust parsed labels (supplementary matrix fallback supported in pipeline)
+GSE63060,Alzheimers,not_applicable,human,whole_blood,transcriptomics,GEO,AD,control,open,primary,AddNeuroMed blood expression cohort; AD case-control external validation
+GSE63061,Alzheimers,not_applicable,human,whole_blood,transcriptomics,GEO,AD,control,open,primary,AddNeuroMed replication cohort; same matrix family as GSE63060
+GSE4226,Alzheimers,not_applicable,human,PBMC,transcriptomics,GEO,AD,control,open,secondary,AD peripheral blood mononuclear cell expression cohort
+GSE18309,Alzheimers,not_applicable,human,PBMC,transcriptomics,GEO,AD,normal,open,secondary,PBMC transcriptomes from AD/MCI/controls; AD-vs-normal subset used
+GSE122063,Alzheimers,not_applicable,human,brain_frontal_temporal_cortex,transcriptomics,GEO,AD,control,controlled,secondary,Human postmortem cortex expression (AD vs controls; VaD subset excluded) | Excluded from active case-control set: mixed VaD/AD design and no usable controls under current labels
+PXD016278,Alzheimers,not_applicable,human,CSF,proteomics,PRIDE,AD,control,open,primary,AD CSF proteomics; orthogonal modality support for panel targets
+AMPAD_ROSMAP,Alzheimers,not_applicable,human,brain_DLPFC,multi_omics,Synapse,AD,control,controlled,secondary,AMP-AD ROSMAP controlled-access multi-omics; include after Synapse approvals
+SEA_AD,Alzheimers,not_applicable,human,brain,single_cell,Allen_Institute,AD,control,open,primary,SEA-AD mature multimodal AD brain atlas; preferred AD single-cell layer
+CENSUS_AD_BRAIN,Alzheimers,not_applicable,human,brain,single_cell,CellxGene,AD,control,open,secondary,CellxGene Census AD-vs-normal brain comparison via sciphera adapter
+PPMI_RNA,Parkinsons,not_applicable,human,whole_blood,transcriptomics,PPMI,PD,control,controlled,primary,PPMI RNA-seq blood cohort (large longitudinal); controlled access
+AMPPD,Parkinsons,not_applicable,human,whole_blood_brain,multi_omics,AMP_PD,PD,control,controlled,primary,AMP-PD integrated cohort; controlled access for omics + metadata
+GSE99039,Parkinsons,not_applicable,human,whole_blood,transcriptomics,GEO,PD,control,open,secondary,PD blood expression cohort; useful open replication layer
+GSE6613,Parkinsons,not_applicable,human,whole_blood,transcriptomics,GEO,PD,control,open,secondary,PD blood transcriptomics cohort; smaller but historically used in replication sets
+GSE72267,Parkinsons,not_applicable,human,whole_blood,transcriptomics,GEO,PD,control,open,secondary,PD blood expression cohort used in external validation studies
+GSE7621,Parkinsons,not_applicable,human,brain_substantia_nigra,transcriptomics,GEO,PD,control,open,secondary,Postmortem substantia nigra expression in PD vs controls
+GSE20292,Parkinsons,not_applicable,human,brain_substantia_nigra,transcriptomics,GEO,PD,control,open,secondary,Whole substantia nigra transcriptional analysis in PD
+ABC_Atlas_ASAP,Parkinsons,not_applicable,human,brain_multi_region,single_cell,Allen_Institute,PD,control,open,primary,ABC ASAP PMDBS mature PD-oriented brain atlas (~3M cells; multi-region)
+PXD026491,Parkinsons,not_applicable,human,CSF,proteomics,PRIDE,PD,control,open,primary,PD CSF proteomics; primary orthogonal proteomics layer
+PXD011216,Parkinsons,not_applicable,human,CSF,proteomics,PRIDE,PD,control,open,secondary,PD CSF proteomics replicate/secondary support
+GSE21942,MS,not_applicable,human,PBMC,transcriptomics,GEO,MS,control,open,primary,MS PBMC expression by array; classical case-control dataset with PubMed anchor
+GSE17048,MS,not_applicable,human,whole_blood,transcriptomics,GEO,MS,control,open,secondary,MS whole blood transcriptome cohort (clinical subtype labels available)
+GSE41890,MS,not_applicable,human,peripheral_blood_leukocytes,transcriptomics,GEO,MS,control,open,secondary,MS relapse/remission plus healthy-control blood leukocyte expression
+GSE41849,MS,not_applicable,human,whole_blood,transcriptomics,GEO,MS,control,controlled,secondary,MS vs healthy-control replication dataset from longitudinal blood profiling study | Excluded from active case-control set: longitudinal MS-only cohort with no healthy control arm
+GSE43591,MS,not_applicable,human,peripheral_blood_T_cells,transcriptomics,GEO,MS,control,open,secondary,MS peripheral blood T-cell expression cohort; replacement for GSE23832 due probe-mapping failure
+CENSUS_MS_BRAIN,MS,not_applicable,human,brain,single_cell,CellxGene,MS,control,open,primary,CellxGene mature single-cell source for MS-vs-normal brain query via sciphera adapter
+E-HCAD-35,MS,not_applicable,human,brain_lesion,single_cell,EBI_SCEA,MS,control,open,secondary,EBI SCEA catalog identifier reported in prior curation; keep as exploratory MS single-cell source
+E-GEOD-180759,MS,not_applicable,human,brain,single_cell,EBI_SCEA,MS,control,open,secondary,EBI SCEA legacy identifier; keep as exploratory/contextual single-cell source
+PXD034840,MS,not_applicable,human,CSF,proteomics,PRIDE,MS,control,open,primary,MS CSF proteomics cohort (phase I stem-cell trial context)
+PXD064570,MS,not_applicable,human,CSF,proteomics,PRIDE,MS,control,open,primary,Large-scale MS CSF proteomics (2025 announcement; high sample throughput)

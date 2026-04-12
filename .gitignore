@@ -1,0 +1,79 @@
+# ── Large raw proteomics data files ──────────────────────────────────────────
+results/pride_discovery/PXD045058_unique_genes_matrix.tsv
+results/pride_discovery/PXD045058_protein_intensities.tsv
+
+# ── Raw data directories (GEO, HPA, downloaded datasets) ─────────────────────
+data/raw/
+data/external/
+data/external_refs/
+data/processed/
+data/tmp/
+
+# ── RNA / Transcriptomics outputs (excluded — proteomics-only repo) ───────────
+results/geo_dea/
+results/rna/
+results/geo_query.csv
+results/geo_query_patch.csv
+results/expression_atlas_query.csv
+results/census_query.csv
+
+# ── RNA / GEO scripts (excluded from proteomics-only scope) ──────────────────
+src/query_geo.py
+src/query_expression_atlas.py
+src/query_census.py
+src/geo_full_dea.py
+src/tissue_stratified_comparison.py
+src/rnaseq_panel_report.py
+src/signature_comparison_full.py
+src/signature_comparison_quick.py
+
+# ── Deprecated / archived scripts ────────────────────────────────────────────
+src_archive/
+
+# ── Blocked dataset parser (73.9 GB file, not runnable) ──────────────────────
+scripts/parse_PXD064570.py
+
+# ── Temporary and working files ───────────────────────────────────────────────
+*.tmp
+*.log
+*.bak
+results/hpa_query_test.csv
+results/proteomicsdb_api_calls.csv
+
+# ── Personal / media files ────────────────────────────────────────────────────
+WhatsApp*.jpeg
+WhatsApp*.jpg
+WhatsApp*.png
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── R / RStudio ───────────────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# ── OS / editor artifacts ────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Secrets / credentials ────────────────────────────────────────────────────
+.env
+*.key
+secrets.yaml

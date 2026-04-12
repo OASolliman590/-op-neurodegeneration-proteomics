@@ -1,0 +1,11 @@
+accession,disease,biospecimen,source,priority,case_label,control_label,notes
+PXD021718,Alzheimers,plasma,pride,primary,alzheimer,control,Verified AD plasma EV cohort with explicit control samples; manual sample map added
+PXD024216,Alzheimers,plasma,pride,primary,alzheimer,control,Verified AD plasma EV cohort from PRIDE metadata (requires sample-label resolution)
+PXD020794,Parkinsons,plasma,pride,primary,parkinson,control,Verified PD plasma cohort with PD vs control in project metadata
+PXD038555,Parkinsons,serum,pride,primary,parkinson,control,PD-containing serum exosome cohort (multi-disease panel; treat as sensitivity blood cohort)
+PXD026439,Parkinsons,plasma,iprox,primary,parkinson,control,Verified PD plasma case-control candidate hosted on iProX (non-PRIDE route)
+PXD040101,MS,plasma,pride,primary,multiple sclerosis,healthy control,Verified MS plasma case-control cohort (MS vs healthy controls in metadata)
+PXD050479,MS,plasma,pride,primary,multiple sclerosis,healthy control,MS platelet releasate blood-plasma cohort with control mention (sensitivity tier in interpretation)
+PXD028702,MS,pbmc,pride,primary,multiple sclerosis,healthy control,MS PBMC case-control cohort (MS vs healthy controls in metadata)
+PXD013599,MS,whole_blood,pride,primary,multiple sclerosis,healthy control,MS blood proteomics cohort (case-control labels may need manual mapping)
+PXD049036,MS,whole_blood,pride,primary,multiple sclerosis,healthy control,MS blood EV/FACS cohort (keep as blood sensitivity layer)

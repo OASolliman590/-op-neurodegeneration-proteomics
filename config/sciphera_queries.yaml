@@ -1,0 +1,65 @@
+# Optional per-accession query overrides for sciphera_adapter.py.
+# If an accession is not listed here, defaults are inferred from cohorts.csv.
+#
+# Supported keys per accession:
+#   condition_a: {disease: "..."} or {drug: "...", disease: "..."}
+#   condition_b: {disease: "..."} or {drug: "...", disease: "..."}
+#   tissue: "..."
+#   cell_type: "..."
+#   source: "cellxgene_census" | "tahoe_100m" | "combined"
+#   max_cells: 100000
+
+overrides:
+  CENSUS_AD_BRAIN:
+    condition_a:
+      disease: "Alzheimer disease"
+    condition_b:
+      disease: "normal"
+    tissue: "brain"
+    source: "cellxgene_census"
+    max_cells: 120000
+
+  SEA_AD:
+    condition_a:
+      disease: "Alzheimer disease"
+    condition_b:
+      disease: "normal"
+    tissue: "brain"
+    source: "cellxgene_census"
+    max_cells: 120000
+
+  ABC_Atlas_ASAP:
+    condition_a:
+      disease: "Parkinson disease"
+    condition_b:
+      disease: "normal"
+    tissue: "brain"
+    source: "cellxgene_census"
+    max_cells: 120000
+
+  E-HCAD-35:
+    condition_a:
+      disease: "multiple sclerosis"
+    condition_b:
+      disease: "normal"
+    tissue: "brain"
+    source: "cellxgene_census"
+    max_cells: 120000
+
+  E-GEOD-180759:
+    condition_a:
+      disease: "multiple sclerosis"
+    condition_b:
+      disease: "normal"
+    tissue: "brain"
+    source: "cellxgene_census"
+    max_cells: 120000
+
+  CENSUS_MS_BRAIN:
+    condition_a:
+      disease: "multiple sclerosis"
+    condition_b:
+      disease: "normal"
+    tissue: "brain"
+    source: "cellxgene_census"
+    max_cells: 120000

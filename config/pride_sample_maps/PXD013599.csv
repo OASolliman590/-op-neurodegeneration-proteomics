@@ -1,0 +1,9 @@
+sample,label
+naa_bcell_mhcii_r1,control
+naa_bcell_mhcii_r2,control
+nae125+ntz_a,case
+nae125+ntz_b,case
+180618_mb021_naa_bcell_mhcii_r1,control
+180618_mb021_naa_bcell_mhcii_r2,control
+181206_rg_peptidomics_401_nae125+ntz_a_hb145,case
+181206_rg_peptidomics_402_nae125+ntz_b_hb145,case

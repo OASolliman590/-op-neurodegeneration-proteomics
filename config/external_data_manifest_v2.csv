@@ -1,0 +1,29 @@
+source,identifier,disease,biospecimen,modality,access_type,priority,download_or_query,target_use,notes
+GEO,GSE241995,organophosphate,blood_or_cellline,transcriptomics,open,secondary,NCBI GEO series,exposure_side,Human ovarian granulosa cells exposed to organophosphate esters
+GEO,GSE5023,organophosphate,astrocyte,transcriptomics,open,secondary,NCBI GEO series,exposure_side,Primary human fetal astrocytes exposed to chlorpyrifos
+GEO,GSE228777,organophosphate,brain_placenta,transcriptomics,open,secondary,NCBI GEO series,exposure_side,Prenatal chlorpyrifos mouse fetal brain and placenta
+GEO,GSE63060,Alzheimer,whole_blood,transcriptomics,open,primary,NCBI GEO series,disease_validation,AddNeuroMed blood expression cohort
+GEO,GSE63061,Alzheimer,whole_blood,transcriptomics,open,primary,NCBI GEO series,disease_validation,AddNeuroMed blood expression cohort
+GEO,GSE99039,Parkinson,whole_blood,transcriptomics,open,primary,NCBI GEO series,disease_validation,Large PD blood microarray cohort
+GEO,GSE6613,Parkinson,whole_blood,transcriptomics,open,primary,NCBI GEO series,disease_validation,PD blood expression cohort
+GEO,GSE72267,Parkinson,whole_blood,transcriptomics,open,primary,NCBI GEO series,disease_validation,PD blood expression cohort
+GEO,GSE21942,multiple_sclerosis,PBMC,transcriptomics,open,primary,NCBI GEO series,disease_validation,Classic MS PBMC cohort
+GEO,GSE23832,multiple_sclerosis,PBMC,transcriptomics,open,primary,NCBI GEO series,disease_validation,MS PBMC expression cohort
+PRIDE,PXD016278,Alzheimer,CSF,proteomics,open,secondary,PRIDE / ProteomeXchange,disease_validation,AD CSF proteomics external layer
+PRIDE,PXD026491,Parkinson,CSF,proteomics,open,secondary,PRIDE / ProteomeXchange,disease_validation,PD CSF proteomics external layer
+PRIDE,PXD011216,Parkinson,CSF,proteomics,open,secondary,PRIDE / ProteomeXchange,disease_validation,PD CSF proteomics biomarker study
+PRIDE,PXD034840,multiple_sclerosis,CSF,proteomics,open,secondary,PRIDE / ProteomeXchange,disease_validation,MS CSF proteomics external layer
+PRIDE,PXD064570,multiple_sclerosis,CSF,proteomics,open,secondary,PRIDE / ProteomeXchange,disease_validation,MS CSF proteomics newer project
+HPA,RNA_CONSENSUS,multi_tissue,brain_and_blood,transcriptomics,open,reference,https://www.proteinatlas.org/download/rna_tissue_consensus.tsv.zip,reference_detectability,HPA consensus tissue RNA reference
+HPA,RNA_HPA,multi_tissue,brain_and_blood,transcriptomics,open,reference,https://www.proteinatlas.org/download/rna_tissue_hpa.tsv.zip,reference_detectability,HPA tissue RNA reference
+HPA,RNA_GTEX,multi_tissue,brain_and_blood,transcriptomics,open,reference,https://www.proteinatlas.org/download/rna_tissue_gtex.tsv.zip,reference_detectability,GTEx tissue RNA reference within HPA
+HPA,RNA_BRAIN_HPA,brain,brain,transcriptomics,open,reference,https://www.proteinatlas.org/download/rna_brain_hpa.tsv.zip,reference_detectability,Brain subregion RNA reference
+HPA,RNA_BRAIN_GTEX,brain,brain,transcriptomics,open,reference,https://www.proteinatlas.org/download/rna_brain_gtex.tsv.zip,reference_detectability,GTEx brain-region RNA reference
+HPA,PROTEIN_IHC,tissue,brain_and_blood,proteomics,open,reference,https://www.proteinatlas.org/download/normal_tissue.tsv.zip,reference_detectability,Normal tissue IHC protein expression
+HPA,BLOOD_MS_CONC,blood,blood,proteomics,open,reference,https://www.proteinatlas.org/download/blood_ms_concentration.tsv.zip,reference_detectability,Blood protein concentration by mass spectrometry
+HPA,BLOOD_IMMUNOASSAY_CONC,blood,blood,proteomics,open,reference,https://www.proteinatlas.org/download/blood_concentration_immunoassay.tsv.zip,reference_detectability,Blood protein concentration by immunoassay
+HPA,RNA_SINGLE_CELL_TYPE,single_cell,brain_and_immune,single_cell,open,reference,https://www.proteinatlas.org/download/rna_single_cell_type.tsv.zip,cell_type_context,Single-cell type RNA expression table
+HPA,RNA_SINGLE_NUCLEI_BRAIN,single_nuclei_brain,brain,single_cell,open,reference,https://www.proteinatlas.org/download/rna_single_nuclei_brain.tsv.zip,cell_type_context,Single nuclei brain RNA table
+CENSUS,CENSUS_AD_BRAIN,Alzheimer,brain,single_cell,open,primary,cellxgene-census API query,disease_validation,Mature single-cell source for AD cell-type context
+CENSUS,CENSUS_PD_BRAIN,Parkinson,brain,single_cell,open,primary,cellxgene-census API query,disease_validation,Mature single-cell source for PD cell-type context
+CENSUS,CENSUS_MS_BRAIN,multiple_sclerosis,brain,single_cell,open,primary,cellxgene-census API query,disease_validation,Mature single-cell source for MS cell-type context
