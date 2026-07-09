@@ -6,6 +6,35 @@
 
 ---
 
+## July 2026 v2 Disease-Context Expansion
+
+The repository has been updated from a neurodegeneration-only external comparison to a broader human disease-context validation analysis.
+
+New v2 outputs are saved in `results/marker10_integrated_disease_context_v2/`.
+
+### v2 scope
+
+| Metric | Count |
+| --- | ---: |
+| Human disease contrasts | 28 |
+| Marker-concordance cells | 280 |
+| Disease-specific pathway/proximity maps | 28 |
+| STRING/database role terms used | 19 |
+
+### Disease ontology coverage
+
+- Nervous system: Alzheimer disease, Parkinson disease, multiple sclerosis.
+- Metabolic/endocrine: diabetes mellitus and metabolic dysfunction.
+- Kidney/urinary: CKD, diabetic kidney disease/prognosis, AKI subphenotype, kidney dysfunction, proximal tubule tissue context.
+- Hepatic: liver dysfunction.
+- Cardiovascular/inflammatory: cardiac disease and MIS-C/cardiac involvement.
+
+### Claim boundary
+
+The v2 analysis supports external disease-context plausibility for the fixed OP marker panel. It does not by itself prove OP-induced organ injury, clinical diagnostic utility, or causal mechanism in the primary OP cohort.
+
+---
+
 ## Overview
 
 Goal: Validate 10 protein markers identified under chronic organophosphate (OP) exposure against independent proteomics datasets from neuroinflammatory diseases (Alzheimer's, Parkinson's, Multiple Sclerosis, FTD).
