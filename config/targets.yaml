@@ -1,171 +1,36 @@
-# Frozen target manifest — do NOT modify after validation begins
-# Source: organophosphate exposure multi-omics discovery study
-# Panel frozen on: 2026-04-08
-# Biospecimen: UNKNOWN — set discovery_biospecimen below before running
+# Neutral Marker10 manifest for external-validation methods.
+# Generated results, discovery fold changes, reference directions, and local
+# identifier-mapping decisions are not versioned in this public repository.
 
-discovery_biospecimen: "whole_blood"   # set from user input (blood): plasma | serum | CSF | PBMC | whole_blood | brain
-
-# Signature groupings derived from acute vs chronic direction in discovery figure
-signatures:
-  shared_op_signature:
-    description: "Markers that move consistently down in both acute and chronic exposure"
-    members: [ACTG1, DNAH9, GPX3, VWF, CFHR2]
-
-  acute_specific_signature:
-    description: "Markers that drop in acute but recover (reverse) in chronic"
-    members: [C4B, CD44]
-
-  chronic_specific_signature:
-    description: "Markers that are non-significant in acute but significantly down in chronic"
-    members: [ITIH3, LRG1, MYH7B]
+discovery_biospecimen: "not_versioned"
 
 targets:
   ACTG1:
     full_name: "Actin gamma 1"
-    hgnc_id: "HGNC:144"
-    uniprot_id: "P63261"
-    panel: A
-    signature: shared_op_signature
-    acute_direction: down        # ↓ significant
-    chronic_direction: down      # ↓↓ more significant
-    acute_effect_size: moderate
-    chronic_effect_size: strong
-    pattern_class: stable_down
-    preferred_modality: [transcriptomics, proteomics]
-    preferred_biospecimen: [blood, PBMC, plasma]
-    notes: "Cytoskeletal actin — often reflects neuronal integrity loss"
 
   DNAH9:
     full_name: "Dynein axonemal heavy chain 9"
-    hgnc_id: "HGNC:2953"
-    uniprot_id: "Q9ULW0"
-    panel: A
-    signature: shared_op_signature
-    acute_direction: down
-    chronic_direction: down
-    acute_effect_size: moderate
-    chronic_effect_size: moderate
-    pattern_class: stable_down
-    preferred_modality: [transcriptomics]
-    preferred_biospecimen: [brain, CSF]
-    notes: "Axonemal dynein — ciliary/axonal transport marker"
 
   GPX3:
     full_name: "Glutathione peroxidase 3"
-    hgnc_id: "HGNC:4459"
-    uniprot_id: "P22352"
-    panel: A
-    signature: shared_op_signature
-    acute_direction: down
-    chronic_direction: down
-    acute_effect_size: moderate
-    chronic_effect_size: strong
-    pattern_class: stable_down
-    preferred_modality: [transcriptomics, proteomics]
-    preferred_biospecimen: [plasma, serum, blood]
-    notes: "Oxidative stress / antioxidant defense; plasma-secreted"
 
   VWF:
     full_name: "Von Willebrand factor"
-    hgnc_id: "HGNC:12726"
-    uniprot_id: "P04275"
-    panel: A
-    signature: shared_op_signature
-    acute_direction: down
-    chronic_direction: down
-    acute_effect_size: strong
-    chronic_effect_size: strong
-    pattern_class: stable_down
-    preferred_modality: [proteomics, transcriptomics]
-    preferred_biospecimen: [plasma, serum, blood]
-    notes: "Endothelial/vascular integrity marker; good plasma proteomics target"
 
   C4B:
     full_name: "Complement C4-B"
-    hgnc_id: "HGNC:1324"
-    uniprot_id: "CCHU"
-    panel: B
-    signature: acute_specific_signature
-    acute_direction: down
-    chronic_direction: none      # recovered to control level (ns)
-    acute_effect_size: strong
-    chronic_effect_size: null
-    pattern_class: reversal
-    preferred_modality: [proteomics, transcriptomics]
-    preferred_biospecimen: [plasma, serum, CSF]
-    notes: "Complement system; reversal in chronic may reflect immune adaptation; critical to test acute vs chronic cohorts separately"
 
   CD44:
     full_name: "CD44 molecule"
-    hgnc_id: "HGNC:1681"
-    uniprot_id: "P16070"
-    panel: B
-    signature: acute_specific_signature
-    acute_direction: down        # strongly down in acute
-    chronic_direction: none      # recovered to control
-    acute_effect_size: very_strong
-    chronic_effect_size: null
-    pattern_class: reversal
-    preferred_modality: [transcriptomics, proteomics]
-    preferred_biospecimen: [PBMC, blood, brain]
-    notes: "Cell adhesion / neuroinflammation; large acute drop then recovery is biologically important"
 
   CFHR2:
     full_name: "Complement factor H related 2"
-    hgnc_id: "HGNC:4888"
-    uniprot_id: "P36980"
-    panel: B
-    signature: shared_op_signature
-    acute_direction: down
-    chronic_direction: down
-    acute_effect_size: moderate
-    chronic_effect_size: strong
-    pattern_class: stable_down
-    preferred_modality: [proteomics, transcriptomics]
-    preferred_biospecimen: [plasma, serum, CSF]
-    notes: "Complement regulation; liver-secreted; good plasma proteomics target"
 
   ITIH3:
     full_name: "Inter-alpha-trypsin inhibitor heavy chain 3"
-    hgnc_id: "HGNC:6169"
-    uniprot_id: "Q06033"
-    panel: B
-    signature: chronic_specific_signature
-    acute_direction: none        # ns in acute
-    chronic_direction: down
-    acute_effect_size: null
-    chronic_effect_size: moderate
-    pattern_class: chronic_specific
-    preferred_modality: [proteomics]
-    preferred_biospecimen: [plasma, serum, CSF]
-    notes: "Acute-phase protein; chronic-only signal — only validate in chronic/long-term exposure cohorts"
 
   LRG1:
     full_name: "Leucine rich alpha-2-glycoprotein 1"
-    hgnc_id: "HGNC:6633"
-    uniprot_id: "P02750"
-    panel: B
-    signature: chronic_specific_signature
-    acute_direction: none
-    chronic_direction: down
-    acute_effect_size: null
-    chronic_effect_size: moderate
-    pattern_class: chronic_specific
-    preferred_modality: [proteomics, transcriptomics]
-    preferred_biospecimen: [plasma, serum, CSF]
-    notes: "Angiogenesis / inflammation; plasma-secreted; chronic-only"
 
   MYH7B:
     full_name: "Myosin heavy chain 7B"
-    hgnc_id: "HGNC:23212"
-    uniprot_id: "Q8WZ82"
-    panel: B
-    signature: chronic_specific_signature
-    acute_direction: none
-    chronic_direction: down
-    acute_effect_size: null
-    chronic_effect_size: very_strong
-    pattern_class: chronic_specific
-    preferred_modality: [transcriptomics, proteomics]
-    preferred_biospecimen: [brain, CSF]
-    notes: "Cytoskeletal motor; largest chronic effect in panel; most informative in neural tissue"
