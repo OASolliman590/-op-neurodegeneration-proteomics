@@ -10,6 +10,14 @@ This folder contains the July 2026 external disease-context validation outputs f
 - `reproducibility/`: script used to generate the v2 figure/table bundle.
 - `marker10_integrated_disease_context_v2_report.md`: compact run report.
 
+## Primary Summary TSV
+
+Use this file for result writing:
+
+`tables/marker10_merged_de_log2fc_across_studies.tsv`
+
+It contains 280 rows, one for each Marker10 protein in each of the 28 human disease contrasts. Columns include disease ontology, accession, case/comparator labels, n, DE method, caveat flags, OP reference log2FC/direction, external cohort log2FC, p value, FDR, DE tier, marker mapping fields, concordance status, and a short summary sentence fragment.
+
 ## Scope
 
 | Metric | Count |

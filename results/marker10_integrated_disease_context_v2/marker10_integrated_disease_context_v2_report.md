@@ -21,6 +21,11 @@
 - Panel C individual maps: `op_external_validation/results/de_visualization_hub_network/marker10_integrated_disease_context_v2_20260709/figures/panel_C_disease_marker_proximity_maps`
 - Panel D overlap: `op_external_validation/results/de_visualization_hub_network/marker10_integrated_disease_context_v2_20260709/figures/panel_D_disease_pathway_proximity_overlap.png`
 - Panel E enhanced: `op_external_validation/results/de_visualization_hub_network/marker10_integrated_disease_context_v2_20260709/figures/panel_E_marker10_pathway_database_roles_enhanced.png`
+- Summary-ready TSV: `results/marker10_integrated_disease_context_v2/tables/marker10_merged_de_log2fc_across_studies.tsv`
+
+## Summary TSV
+- Rows: 280 marker-by-cohort rows (10 markers x 28 human disease contrasts)
+- Columns: cohort/disease metadata, accession, labels, n, DE method, caveat flags, OP reference log2FC/direction, external log2FC, p value, FDR, DE tier, marker mapping, concordance status, and summary sentence fragment.
 
 ## Status Counts
 - Concordant DEP: 15

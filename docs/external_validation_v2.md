@@ -81,6 +81,20 @@ The v2 tables preserve the analysis method and caveat flags per contrast in `tab
 
 Marker-level rows are in `tables/marker10_concordance_by_contrast_v2.tsv`.
 
+For writing and downstream summarization, the most complete merged export is:
+
+`results/marker10_integrated_disease_context_v2/tables/marker10_merged_de_log2fc_across_studies.tsv`
+
+This TSV has one row per marker per cohort/contrast, with 280 rows total. It joins marker-level DE/concordance results to cohort metadata so that each row contains:
+
+- Cohort number, disease ontology domain, disease name/context, accession, case/comparator labels, and sample counts.
+- Source collection, DE method label, display contrast, and caveat flags.
+- OP reference log2FC and OP reference direction.
+- External cohort marker detection status, display gene, feature ID, UniProt ID, and protein name.
+- External disease/cohort log2FC, p value, FDR, absolute log2FC, DE tier, and disease-cohort direction.
+- Direction agreement and concordance status against the OP reference direction.
+- A short `summary_sentence_fragment` field to help draft result summaries while preserving missing/discordant markers.
+
 ## Concordance Definitions
 
 Each marker-by-cohort cell was classified against the OP reference direction:
