@@ -1,0 +1,11 @@
+marker	detected	concordant_dep	discordant_dep	weak_same	weak_opposite	aggregate_score
+ACTG1	6	2	0	1	2	2.5
+VWF	25	2	2	12	8	1.75
+DNAH9	1	0	0	0	1	-0.25
+GPX3	21	1	2	10	8	-0.5
+C4B	21	1	2	9	9	-1.0
+CD44	19	1	1	9	7	1.25
+CFHR2	18	5	0	5	8	4.25
+ITIH3	21	2	2	2	15	-3.25
+LRG1	18	1	1	8	8	0.0
+MYH7B	0	0	0	0	0	0.0
